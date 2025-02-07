@@ -82,7 +82,7 @@ import Layout from './components/Layout/Layout';
 // import Navbar from './components/Navbar/Navbar';
 import NotFound from './components/NotFound/NotFound';
 import Register from './components/Register/Register';
-import Login from './Components/Login/Login';
+import Login from './components/Login/Login';
 import Home from './components/home/Home';
 
 const router = createBrowserRouter([
