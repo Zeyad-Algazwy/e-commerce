@@ -83,6 +83,7 @@ import Layout from './components/Layout/Layout';
 import NotFound from './components/NotFound/NotFound';
 import Register from './components/Register/Register';
 import Login from './Components/Login/Login';
+import Home from './components/home/Home';
 
 const router = createBrowserRouter([
   {
@@ -90,6 +91,14 @@ const router = createBrowserRouter([
     element:   <Layout />,children:[{
       path: '/register',
       element: <Register />,
+    },
+    {
+      path: '/login',
+      element: <Login />,
+    },
+    {
+      path: '/home',
+      element: <Home />,
     },
     {
       path: '/login',
