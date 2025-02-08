@@ -83,7 +83,7 @@ import Layout from './components/Layout/Layout';
 import NotFound from './components/NotFound/NotFound';
 import Register from './components/Register/Register';
 import Login from './components/Login/Login';
-import Home from './components/home/Home';
+import Home from './components/Home/Home';
 
 const router = createBrowserRouter([
   {
